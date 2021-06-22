@@ -2,7 +2,7 @@
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #003365;
+  color: #2F3F41;
   opacity: 1; /* Firefox */
 }
 
@@ -193,7 +193,7 @@
 
 #breadcrumbs {
   a {
-    color: #6081a2 !important;
+    color: #2F3F41 !important;
   }
 }
 
@@ -201,7 +201,7 @@ pre {
   padding: 12px;
   border-radius: 4px;
   background-color: #f0f5f9;
-  color: #003365;
+  color: #2F3F41;
   font-family: "Roboto Mono", monospace;
   font-size: 14px;
   line-height: 24px;
@@ -243,7 +243,7 @@ pre {
 
   /* Handle */
   &::-webkit-scrollbar-thumb {
-    background: #003365;
+    background: #2F3F41;
     border-radius: 100px;
   }
 
@@ -256,7 +256,7 @@ pre {
     padding: 10px 0 0 10px;
   }
 
-  scrollbar-color: #003365 #d7e2eb;
+  scrollbar-color: #2F3F41 #d7e2eb;
   scrollbar-width: thin;
 
   .pseudo-btn {
@@ -286,7 +286,7 @@ pre {
       line-height: 24px;
       margin-bottom: 10px;
       a {
-        color: #003365;
+        color: #2F3F41;
       }
 
       ul {
@@ -437,7 +437,7 @@ html {
 #exampleMenu.heading {
   font-family: "forma-djr-display", sans-serif;
   font-size: 16px !important;
-  color: #003365 !important;
+  color: #2F3F41 !important;
   &:hover {
     color: $primary !important;
   }
@@ -589,7 +589,7 @@ article {
   ol {
     margin: 30px 0;
     li {
-      color: #003365;
+      color: #2F3F41;
       font-size: 18px;
     }
   }
@@ -731,7 +731,7 @@ article {
 }
 
 footer {
-  color: #60758a;
+  color: #9491AA;
 
   span.heading {
     color: #fff;
@@ -740,7 +740,7 @@ footer {
 
   a {
     display: block;
-    color: #60758a;
+    color: #9491AA;
     line-height: 20px;
   padding-bottom: 10px;
 
@@ -775,7 +775,7 @@ footer {
     a {
       font-size: 16px !important;
       line-height: 23px;
-      
+
     }
 
     a:not(.pillx) {
@@ -872,7 +872,7 @@ footer {
   a:not(.btn) {
     font-size: 18px !important;
     line-height: 26px !important;
-    color: #003365 !important;
+    color: #2F3F41 !important;
     font-weight: 400;
   }
 }
@@ -881,14 +881,14 @@ footer {
   .gotoMainMenu {
     font-size: 18px !important;
     line-height: 26px !important;
-    color: #003365 !important;
+    color: #2F3F41 !important;
     font-weight: 400;
   }
 
   a {
     font-size: 16px;
     line-height: 23px;
-    color: #003365 !important;
+    color: #2F3F41 !important;
   }
 }
 
@@ -912,8 +912,8 @@ input {
 
 .btn-primary {
   &:hover {
-    border: solid 1px #ff8200;
-    background: #ff8200 !important;
+    border: solid 1px #9D47EB;
+    background: #9D47EB !important;
   }
 }
 
@@ -922,8 +922,8 @@ input {
   background: #fff !important;
   color: $primary;
   &:hover {
-    border: solid 1px #ff8200;
-    background: #ff8200 !important;
+    border: solid 1px #9D47EB;
+    background: #9D47EB !important;
   }
 }
 
@@ -1052,7 +1052,7 @@ a.text-secondary:hover {
       .links {
         padding-bottom: 20px;
 
-        
+
       }
     }
 
