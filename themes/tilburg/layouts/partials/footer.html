@@ -8,10 +8,10 @@
 			</div>
 			<div class="col-lg-1 col-0"></div><div class="col-lg-4 col-21">
 				<div class="footerCollapse">
-					<div class="heading text-white d-block py-2">Tutorials</div>
+					<div class="heading text-white d-block py-2">Open Education Courses</div>
 
 					<div class="d-none d-lg-block links">
-						{{- range where .Site.Pages "Section" "tutorials" -}}
+						{{- range where .Site.Pages "Section" "open-education-courses" -}}
 						{{ if eq .Params.isParent true }}
 						<a href="{{ .Permalink }}">{{ .Title }}</a>
 						{{ end }}
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-1 col-0"></div>
+			<!-- <div class="col-lg-1 col-0"></div>
 			<div class="col-lg-4 col-21">
 				<div class="footerCollapse">
 					<div class="heading text-white d-block py-2">Building Blocks</div>
@@ -49,11 +49,11 @@
 						{{- end -}}
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-lg-1 col-0"></div>
 			<div class="col-lg-4 col-21">
 				<div class="footerCollapse">
-					<div class="heading text-white d-block py-2">Tilburg Science Hub</div>
+					<div class="heading text-white d-block py-2">Tilburg Education Hub</div>
 					<div class="d-none d-lg-block links">
 						<!-- <a href="">Tour</a>-->
 						<a href="/about">About</a>
@@ -71,7 +71,7 @@
 		<div class="row justify-content-center py-5 ">
 			<div class="col-lg-18 col-22">
 				<div class="d-flex flex-column flex-lg-row justify-content-md-between">
-					<div class="order-2 order-lg-1">© 2021 Tilburg Science Hub. All rights reserved. |
+					<div class="order-2 order-lg-1">© 2021 Tilburg Education Hub. All rights reserved. |
 						<a class="d-inline-block text-white" href="/disclaimer">Disclaimer</a>
 						<!-- <a class="d-inline-block text-white" href="#0">Terms of Service</a> -->
 						<!-- <a class="d-inline-block text-white" href="#0">Privacy</a> -->

@@ -30,12 +30,12 @@
 
 					-->
 					<li>
-						<a href="/tutorials" class="headerLink menuArrow">Tutorials</a>
+						<a href="/tutorials" class="headerLink menuArrow">Open Education Courses</a>
 						<div class="bg-white text-left w-100 border-top boxShadow subMenu p-5 px-3">
 
 							<div class="row">
 
-								{{- range where .Site.Home.Sections "Section" "tutorials"}}
+								{{- range where .Site.Home.Sections "Section" "open-education-courses"}}
 
 								    	{{ range .Pages }}
 								    	<div class="col-6 mb-4 px-3">
@@ -55,7 +55,7 @@
 							</div>
 						</div>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="/building-blocks" class="headerLink menuArrow">Building Blocks</a>
 						<div class="bg-white text-left w-100 border-top boxShadow subMenu">
 							<div class="row">
@@ -108,15 +108,14 @@
 
 
 						</div>
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						<a href="/examples" class="headerLink menuArrow">Examples</a>
 						<div class="bg-white text-left w-100 border-top boxShadow subMenu p-5 px-3">
 							<div class="row">
 								{{- range where .Site.Pages "Section" "examples" -}}
 								{{ if eq .Title "Examples" }}
 
-									<!-- <h5 class="text-secondary" style="font-size: 16px;">{{.Title}}</h5> -->
 									{{- range .Pages -}}
 									<div class="col-6 mb-4 px-2">
 									{{ if .Title }}
@@ -128,7 +127,7 @@
 								{{ end }}
 							</div>
 						</div>
-					</li>
+					</li> -->
 					<li><a href="/about" class="headerLink">About</a></li>
 				</ul>
 			</div>
