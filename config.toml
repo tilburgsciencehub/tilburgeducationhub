@@ -1,0 +1,34 @@
+baseURL = "https://tilburgsciencehub.com"
+languageCode = "en-us"
+title = "Tilburg Education Hub"
+theme = "tilburg"
+pygmentsUseClasses=true
+enableInlineShortcodes = true
+googleAnalytics = "UA-23035208-2"
+
+[params]
+  repo_url="https://github.com/tilburgsciencehub/tilburgeducationhub"
+
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
+  page = ["HTML", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
