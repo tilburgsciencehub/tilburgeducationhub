@@ -1,5 +1,5 @@
 ---
-tutorialtitle: "Data Mining for Business and Government"
+tutorialtitle: "Data Mining for Business and Governance"
 type: "dmbg"
 title: "Open Education Course on Data Mining"
 description: "Engineer data sets from complex raw data and manage research projects efficiently."
@@ -13,7 +13,7 @@ aliases:
 
 ## Overview
 
-The **[Data Mining for Business and Government](https://datamining.tilburgsciencehub.com)** course is an open-source Master level course taught at Tilburg University. All of its content is freely available and consists of lectures, live streams, self-study material, tutorials and examples.
+The **[Data Mining for Business and Governance](https://datamining.tilburgsciencehub.com)** course is an open-source Master level course taught at Tilburg University. All of its content is freely available and consists of lectures, live streams, self-study material, tutorials and examples.
 
 This course teaches you to process, analyse data, and make predictions based on the patterns in the data. You will deal with three main topics: data, algorithms, and evaluation. For a more in-depth introduction, you can read the syllabus [here](https://datamining.tilburgsciencehub.com/docs/syllabus/).
 
