@@ -8,10 +8,10 @@
 			</div>
 			<div class="col-lg-1 col-0"></div><div class="col-lg-4 col-21">
 				<div class="footerCollapse">
-					<div class="heading text-white d-block py-2">Open Education Courses</div>
+					<div class="heading text-white d-block py-2">Learn</div>
 
 					<div class="d-none d-lg-block links">
-						{{- range where .Site.Pages "Section" "open-education-courses" -}}
+						{{- range where .Site.Pages "Section" "learn" -}}
 						{{ if eq .Params.isParent true }}
 						<a href="{{ .Permalink }}">{{ .Title }}</a>
 						{{ end }}
@@ -20,13 +20,13 @@
 				</div>
 			</div>
 
-			<!-- <div class="col-lg-1 col-0"></div>
+			<div class="col-lg-1 col-0"></div>
 			<div class="col-lg-4 col-21">
 				<div class="footerCollapse">
-					<div class="heading text-white d-block py-2">Building Blocks</div>
+					<div class="heading text-white d-block py-2">Teach</div>
 
 					<div class="d-none d-lg-block links">
-						{{- range where .Site.Pages "Section" "building-blocks" -}}
+						{{- range where .Site.Pages "Section" "teach" -}}
 						{{ if eq .Params.isParent "true" }}
 						{{- range $index, $value := .Pages -}}
 						<a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-1 col-0"></div>
+			<!-- <div class="col-lg-1 col-0"></div>
 			<div class="col-lg-4 col-21">
 				<div class="footerCollapse">
 					<div class="heading text-white d-block py-2">Examples</div>

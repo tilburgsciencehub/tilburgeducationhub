@@ -30,12 +30,12 @@
 
 					-->
 					<li>
-						<a href="/tutorials" class="headerLink menuArrow">Open Education Courses</a>
+						<a href="/learn" class="headerLink menuArrow">Learn</a>
 						<div class="bg-white text-left w-100 border-top boxShadow subMenu p-5 px-3">
 
 							<div class="row">
 
-								{{- range where .Site.Home.Sections "Section" "open-education-courses"}}
+								{{- range where .Site.Home.Sections "Section" "learn"}}
 
 								    	{{ range .Pages }}
 								    	<div class="col-6 mb-4 px-3">
@@ -51,6 +51,32 @@
 								    	{{ end }}
 
 								  {{- end}}
+
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="/teach" class="headerLink menuArrow">Teach</a>
+						<div class="bg-white text-left w-100 border-top boxShadow subMenu p-5 px-3">
+
+							<div class="row">
+
+								{{- range where .Site.Home.Sections "Section" "teach"}}
+
+											{{ range .Pages }}
+											<div class="col-6 mb-4 px-3">
+												<span class="heading d-block mb-3 text-secondary" style="font-size: 16px;">{{.Title}}</span>
+												{{ range .Pages }}
+													{{ if eq .Params.indexexclude "true" }}
+													<!--<a class="d-block mx-0" href="{{.Permalink}}">DONOTSHOW{{.Title}}</a>-->
+													{{ else }}
+													<a class="d-block mx-0" href="{{.Permalink}}">{{ if .Params.tutorialtitle }}{{ .Params.tutorialtitle }}{{ else }}{{ .Title }}{{ end }}</a>
+													{{ end }}
+												{{ end }}
+												</div>
+											{{ end }}
+
+									{{- end}}
 
 							</div>
 						</div>
