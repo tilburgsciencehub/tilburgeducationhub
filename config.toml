@@ -1,4 +1,4 @@
-baseURL = "https://tilburgeducationhub.netlify.app"
+baseURL = "https://tilburgeducationhub.com"
 languageCode = "en-us"
 title = "Tilburg Education Hub"
 theme = "tilburg"
