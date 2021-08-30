@@ -4,7 +4,7 @@
 name = "Tilburg"
 licenselink = "https://github.com/tilburgsciencehub/website"
 description = ""
-homepage = "https://tilburgsciencehub.com/"
+homepage = "https://tilburgeducationhub.com/"
 tags = []
 features = []
 min_version = "0.41.0"
