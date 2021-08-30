@@ -1,5 +1,5 @@
 ---
-tutorialtitle: "Create Your Own Website in 15 Minutes"
+tutorialtitle: "Create Your Open Education Website in 15 Minutes"
 type: "hugo-website"
 title: "Overview"
 description: "Learn how you can launch your very own static website in a quick and easy way."

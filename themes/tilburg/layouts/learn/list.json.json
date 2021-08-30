@@ -1,5 +1,5 @@
 [
-	{{- range $index, $element := where .Site.Pages "Section" "building-blocks" -}}
+	{{- range $index, $element := where .Site.Pages "Section" "learn" -}}
     {{ if .Title }}
     {{ if $index }},{{end}}
     	{

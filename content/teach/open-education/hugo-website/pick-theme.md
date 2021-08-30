@@ -1,5 +1,5 @@
 ---
-tutorialtitle: "Create Your Own Website in 15 Minutes"
+tutorialtitle: "Create Your Open Education Website in 15 Minutes"
 type: "hugo-website"
 indexexclude: "true"
 title: "Pick a Theme"
