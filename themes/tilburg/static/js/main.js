@@ -86,7 +86,7 @@ $(document).ready(function () {
       $(
         `.codeblock:eq(${x}) #${blocks[block].children[0].children[0].className}-${x}-${d}`
       ).append(blocks[block]);
-      
+
       d++;
 
       var el = $(
@@ -188,7 +188,7 @@ $(".headerSearch").on("keyup", function (e) {
         `<a href="${hit.file}">${hit.title}</a>`
       )
     })
-    
+
     // also add see more link
     if (hits.length == 10) {
       resultsHolder.append(`<a class="text-primary" href="/search?q=${val}">View all results +</a>`)
@@ -421,7 +421,7 @@ document
             });
         };
     });
-    
+
 
 if (document.querySelector("#scrollTo a")) {
   document.querySelector("#scrollTo a").click()
