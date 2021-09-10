@@ -21,4 +21,4 @@ The open-ended nature of this handbook, means that new chapters will be added in
 
 ## Access the course
 
-{{% cta-primary-center "Get started now" "https://research.tilburguniversity.edu/en/publications/second-thoughts-first-introductions-to-philosophy" %}}
+{{% cta-primary-center "Get started now" "https://openpresstiu.pubpub.org/secondthoughts" %}}
