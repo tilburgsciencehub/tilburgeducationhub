@@ -4,7 +4,7 @@ title = "Tilburg Education Hub"
 theme = "tilburg"
 pygmentsUseClasses=true
 enableInlineShortcodes = true
-googleAnalytics = "UA-23035208-2"
+googleAnalytics = "G-WSMT1F6SCM"
 
 [params]
   repo_url="https://github.com/tilburgsciencehub/tilburgeducationhub"
