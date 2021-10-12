@@ -12,7 +12,7 @@
 	{{- if .Params.keywords -}}
 	<meta name="Keywords" content="{{ .Params.keywords }}">
 	{{- end -}}
-	{{ template "_internal/google_analytics.html" . }}
+	{{ template "_internal/google_analytics_async.html" . }}
 	<meta property="og:title" content="{{ if .Params.tutorialtitle }}{{ .Params.tutorialtitle }}{{ else }}{{ .Title }}{{ end }} {{ if .IsHome }}{{else}} - Tilburg Science Hub{{end}}" />
 	{{ if .Params.description }}
 	<meta property="og:description" content="{{ .Params.description }}" />
